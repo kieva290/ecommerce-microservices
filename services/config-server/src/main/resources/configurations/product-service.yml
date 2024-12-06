@@ -1,3 +1,5 @@
+server:
+  port: 8050
 spring:
   datasource:
     url:  jdbc:postgresql://localhost:5432/product
@@ -16,5 +18,4 @@ spring:
     baseline-version: 0
     user: ${spring.datasource.username}
     password: ${spring.datasource.password}
-server:
-  port: 8050
+
